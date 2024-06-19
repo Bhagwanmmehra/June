@@ -5,7 +5,7 @@ for (let j=1;j<=n;j++){
     if((i==1 &&j==1)||(i==n)&&(j==n)||(i==1&&j==n)||(i==n)&&(j==1))
 str+="*"
 else{
-    str+="-"
+    str+=" "
 }
 }
 console.log(str);
